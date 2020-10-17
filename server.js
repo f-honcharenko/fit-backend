@@ -1,11 +1,13 @@
 const express = require('express');
 const bodyPaster = require('body-parser');
 const cors = require('cors');
-var fs = require('fs');
+const fs = require('fs');
 const e = require('express');
+const jwt = require('jsonwebtoken');
 // 
 //const ExcelJS = require('exceljs');
 // 
+const privateJwtKey = 'SomeBodyOnceToldMe';
 
 const app = express();
 app.use(cors());
@@ -168,6 +170,40 @@ app.post('/timetables/1/getCal', (req, res, next) => {
 
 });
 
+app.post('/authAdmin', (req, res, next) => {
+    const candidate = {
+        login: req.body.login,
+        password: req.body.password
+    };
+    console.log('candidate',candidate);
+
+    fs.readFile('./data/users.json', 'utf8', async function (err, contents) {
+        let file = JSON.parse(contents);
+        console.log('file',file);
+        for (key in file) {
+            if (key == candidate.login) {
+                if (candidate.password == file[key].password) {
+
+                    await jwt.sign({ login: [key] }, privateJwtKey, function (err, token) {
+                        if (err) { return res.status(500).json({ msg: 'server jwt gen error' }); } else {
+                            return res.status(200).json({ msg: 'login succses', JWT: token });
+                        };
+
+                    });
+                    // const token = jwt.sign({ login: [key] }, privateJwtKey);
+                    // console.log(token);
+                    // //         return res.status(200).json({ msg: 'login succses', JWT: token });
+
+                } else {
+                return res.status(401).json({msg:'password is wrong'});                    
+                }
+            } else {
+                return res.status(404).json({msg:'user not found'});
+            }
+        }
+    });
+
+})
 
 //express start
 const port = process.env.PORT || 5000;
