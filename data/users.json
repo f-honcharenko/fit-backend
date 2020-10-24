@@ -1,10 +1,23 @@
 {
     "lifipp":{
         "id":"01",
-        "password":"123456789"
+        "type":"admin",
+        "password":"123456789",
+        "spec":"ПП1",
+        "groups":["ПП11/1","ПП11/2","ПП12/1","ПП12/2"]
     },
     "user2":{
         "id":"02",
-        "password":"123456789"
+        "type":"monitor",
+        "password":"123456789",
+        "spec":"ИПЗ-3",
+        "groups":["ИПЗ-31/1","ИПЗ-31/2"]
+    },
+    "user0":{
+        "id":"00",
+        "type":"admin",
+        "password":"0",
+        "spec":"ИПЗ-3",
+        "groups":""
     }
 }
