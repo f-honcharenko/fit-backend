@@ -1,15 +1,1 @@
-{
-    "mongoose":{
-        "link": "mongodb+srv://admin:admin@cluster0.albqm.mongodb.net/rozklad?retryWrites=true&w=majority"
-    },
-    "express":{
-        "port":5000,
-        "ip":"localhost"
-    },
-    "bcrypt":{
-        "salt":10
-    },
-    "jwt":{
-        "secret":"SomeBodyOnceToldMe"
-    }
-}
+
