@@ -2,10 +2,7 @@
   "2020-09-16": {
     "ПП11/1": {
       "1": {
-        "title": "-",
-        "type": "-",
-        "teacher": "-",
-        "link": ""
+        "title": "none"
       },
       "2": {
         "title": "Англ",
@@ -20,9 +17,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -36,6 +39,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -59,9 +65,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -106,9 +118,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -122,6 +140,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -145,9 +166,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -192,9 +219,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -208,6 +241,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -231,9 +267,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -278,9 +320,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -294,6 +342,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -317,9 +368,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -364,9 +421,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -380,6 +443,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -403,9 +469,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -450,9 +522,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -466,6 +544,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -489,9 +570,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -536,9 +623,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -552,6 +645,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -575,9 +671,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -622,9 +724,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -638,6 +746,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -661,9 +772,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -708,9 +825,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -724,6 +847,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -747,9 +873,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -794,9 +926,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -810,6 +948,9 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -833,9 +974,15 @@
         "teacher": "Плескач В.Л.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/89193146515?pwd=OTVocjZFZU9kMmNwNDBKYmdIc29yZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -880,9 +1027,15 @@
         "teacher": "Ващіліна О.В.",
         "color": "#e8e523 ",
         "link": "https://us02web.zoom.us/j/89155721296?pwd=bzN2RlAzS2gxc0pQR1lkSjBaMXVYdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -896,6 +1049,9 @@
         "teacher": "Ващіліна О.В.",
         "color": "#e8e523 ",
         "link": "https://us02web.zoom.us/j/89155721296?pwd=bzN2RlAzS2gxc0pQR1lkSjBaMXVYdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -919,9 +1075,15 @@
         "teacher": "Ващіліна О.В.",
         "color": "#e8e523 ",
         "link": "https://us02web.zoom.us/j/89155721296?pwd=bzN2RlAzS2gxc0pQR1lkSjBaMXVYdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -959,15 +1121,30 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -984,15 +1161,27 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
       },
       "4": {
         "title": "АОП",
@@ -1024,9 +1213,15 @@
         "teacher": "Ващіліна О.В.",
         "color": "#e8e523 ",
         "link": "https://us02web.zoom.us/j/89155721296?pwd=bzN2RlAzS2gxc0pQR1lkSjBaMXVYdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -1040,6 +1235,9 @@
         "teacher": "Ващіліна О.В.",
         "color": "#e8e523 ",
         "link": "https://us02web.zoom.us/j/89155721296?pwd=bzN2RlAzS2gxc0pQR1lkSjBaMXVYdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1063,9 +1261,15 @@
         "teacher": "Ващіліна О.В.",
         "color": "#e8e523 ",
         "link": "https://us02web.zoom.us/j/89155721296?pwd=bzN2RlAzS2gxc0pQR1lkSjBaMXVYdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Англ",
         "type": "Л.",
@@ -1111,6 +1315,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1134,6 +1341,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1157,6 +1367,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1180,6 +1393,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1205,6 +1421,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1228,6 +1447,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1251,6 +1473,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1274,6 +1499,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1299,6 +1527,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1322,6 +1553,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1345,6 +1579,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1368,6 +1605,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1393,6 +1633,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1446,6 +1689,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1469,6 +1715,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1494,6 +1743,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1517,6 +1769,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1570,6 +1825,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1595,6 +1853,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1618,6 +1879,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1641,6 +1905,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1726,6 +1993,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1749,6 +2019,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1772,6 +2045,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1797,6 +2073,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1850,6 +2129,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -1873,6 +2155,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1898,6 +2183,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -1921,6 +2209,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -1974,6 +2265,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -1999,6 +2293,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -2022,6 +2319,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -2045,6 +2345,9 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78719474161?pwd=bXVZUmtIU2I3am1GaStmVGxLNlJCQT09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -2123,6 +2426,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -2139,6 +2448,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -2155,6 +2470,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -2173,6 +2494,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -2189,6 +2516,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -2205,6 +2538,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -2221,6 +2560,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -2239,6 +2584,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -2285,6 +2636,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -2301,6 +2658,12 @@
         "teacher": "Каленченко О.О., Стрижньова М.Ю.",
         "color": "#1490a8 ",
         "link": ""
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -2326,6 +2689,9 @@
         "teacher": "Гарко І.І.",
         "color": "#13e8e1 ",
         "link": "https://us04web.zoom.us/j/74393118896?pwd=MkdmV3AyOG9YeTQ0RWNSczZHSUFpdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
@@ -2349,6 +2715,9 @@
         "teacher": "Гарко І.І.",
         "color": "#13e8e1 ",
         "link": "https://us04web.zoom.us/j/74393118896?pwd=MkdmV3AyOG9YeTQ0RWNSczZHSUFpdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -2780,6 +3149,9 @@
   },
   "2020-09-27": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -2803,6 +3175,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -2826,6 +3201,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "АОП",
         "type": "Пр.",
@@ -2849,6 +3227,12 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
+      "2": {
+        "title": "none"
+      },
       "3": {
         "title": "ТеорВер",
         "type": "Л.",
@@ -2867,6 +3251,9 @@
   },
   "2020-10-18": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -2890,6 +3277,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -2913,6 +3303,9 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "АОП",
         "type": "Пр.",
@@ -2936,6 +3329,12 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
+      "2": {
+        "title": "none"
+      },
       "3": {
         "title": "Линейка",
         "type": "Пр.",
@@ -2954,6 +3353,9 @@
   },
   "2020-11-08": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -2977,6 +3379,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -3000,6 +3405,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Пр.",
@@ -3023,6 +3431,9 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Пр.",
@@ -3048,6 +3459,9 @@
   },
   "2020-11-22": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -3071,6 +3485,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Лаб.",
@@ -3094,6 +3511,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Пр.",
@@ -3117,6 +3537,9 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Пр.",
@@ -3142,6 +3565,9 @@
   },
   "2020-11-01": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Лаб.",
@@ -3165,6 +3591,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Лаб.",
@@ -3188,6 +3617,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3211,6 +3643,9 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3236,6 +3671,9 @@
   },
   "2020-11-15": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Лаб.",
@@ -3259,6 +3697,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Линейка",
         "type": "Лаб.",
@@ -3282,6 +3723,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3305,6 +3749,9 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3330,6 +3777,9 @@
   },
   "2020-10-04": {
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "АОП",
         "type": "Лаб.",
@@ -3353,6 +3803,9 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "АОП",
         "type": "Лаб.",
@@ -3376,6 +3829,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3399,6 +3855,9 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3424,6 +3883,12 @@
   },
   "2020-11-29": {
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
+      "2": {
+        "title": "none"
+      },
       "3": {
         "title": "Линейка",
         "type": "Пр.",
@@ -3440,6 +3905,12 @@
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
+      "2": {
+        "title": "none"
+      },
       "3": {
         "title": "Линейка",
         "type": "Пр.",
@@ -3456,6 +3927,12 @@
       }
     },
     "ПП11/1": {
+      "1": {
+        "title": "none"
+      },
+      "2": {
+        "title": "none"
+      },
       "3": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3472,6 +3949,12 @@
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
+      "2": {
+        "title": "none"
+      },
       "3": {
         "title": "ТеорВер",
         "type": "Пр.",
@@ -3510,9 +3993,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -3536,6 +4025,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3549,9 +4041,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3565,6 +4063,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -3590,9 +4091,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -3616,6 +4123,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3629,9 +4139,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3645,6 +4161,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -3670,9 +4189,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -3696,6 +4221,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3709,9 +4237,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3725,6 +4259,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -3750,9 +4287,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -3776,6 +4319,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3789,9 +4335,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3805,6 +4357,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -3830,9 +4385,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -3856,6 +4417,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3869,9 +4433,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3885,6 +4455,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -3910,9 +4483,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -3936,6 +4515,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3949,9 +4531,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -3965,6 +4553,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -3990,9 +4581,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -4016,6 +4613,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4029,9 +4629,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4045,6 +4651,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -4070,9 +4679,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -4096,6 +4711,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4109,9 +4727,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4125,6 +4749,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -4150,9 +4777,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -4176,6 +4809,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4189,9 +4825,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4205,6 +4847,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -4230,9 +4875,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -4256,6 +4907,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4269,9 +4923,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4285,6 +4945,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -4310,9 +4973,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -4336,6 +5005,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4349,9 +5021,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4365,6 +5043,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -4390,9 +5071,15 @@
         "teacher": "Гарко І.І.",
         "color": "#d720e8 ",
         "link": "https://us04web.zoom.us/j/78009869348?pwd=bmw0YXRLa0J0V25OY09aWlhuRDhxdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "Дискретка",
         "type": "Пр.",
@@ -4416,6 +5103,9 @@
       }
     },
     "ПП12/1": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4429,9 +5119,15 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
+      "1": {
+        "title": "none"
+      },
       "2": {
         "title": "МатАн",
         "type": "Пр.",
@@ -4445,6 +5141,9 @@
         "teacher": "Пирог М.В.",
         "color": "#0d8511 ",
         "link": "https://us02web.zoom.us/j/86948432025?pwd=WVBPMjRRTXZDaW5sYzdLS29QK21XZz09"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -5561,6 +6260,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/1": {
@@ -5577,6 +6282,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -5593,6 +6304,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -5609,6 +6326,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     }
   },
@@ -5627,6 +6350,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП11/1": {
@@ -5650,6 +6379,9 @@
         "teacher": "Пирог М.В.",
         "color": "#fa982a ",
         "link": "https://us02web.zoom.us/j/89165023247?pwd=blMvYnBONkFnMGw1bjdLQjk5Yzkzdz09"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/1": {
@@ -5666,6 +6398,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     },
     "ПП12/2": {
@@ -5682,6 +6420,12 @@
         "teacher": "Міронова В.Л.",
         "color": "#fa982a ",
         "link": "https://cutt.ly/pgex0cD"
+      },
+      "3": {
+        "title": "none"
+      },
+      "4": {
+        "title": "none"
       }
     }
   }

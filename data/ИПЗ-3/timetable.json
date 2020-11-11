@@ -2,17 +2,15 @@
   "2020-09-06": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
@@ -25,10 +23,9 @@
         "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -36,17 +33,15 @@
   "2020-09-13": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
@@ -59,10 +54,9 @@
         "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -70,17 +64,15 @@
   "2020-09-20": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
@@ -93,10 +85,9 @@
         "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -104,17 +95,15 @@
   "2020-09-27": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
@@ -127,10 +116,9 @@
         "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -138,33 +126,23 @@
   "2020-10-04": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -172,33 +150,23 @@
   "2020-10-11": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -206,33 +174,23 @@
   "2020-10-18": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -240,33 +198,23 @@
   "2020-10-25": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -274,33 +222,23 @@
   "2020-11-01": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -308,33 +246,23 @@
   "2020-11-08": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -342,33 +270,23 @@
   "2020-11-15": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -376,33 +294,23 @@
   "2020-11-22": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -410,33 +318,23 @@
   "2020-11-29": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
@@ -444,33 +342,23 @@
   "2020-12-06": {
     "ИПЗ-31/1": {
       "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
+        "title": "КПЗ",
+        "type": "Лаб.",
+        "teacher": "Порев",
+        "link": "https://meet.google.com/onx-wary-zpe"
       },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     },
     "ИПЗ-31/2": {
-      "1": {
-        "title": "ММП",
-        "type": "Л.",
-        "teacher": "Шевченко",
-        "color": "blue",
-        "link": "https://us02web.zoom.us/j/6547310436?pwd=YXZ3OEE1ZlpqVVhPdXFqMEJxcXBXUT09"
-      },
       "2": {
-        "title": "Захист ПіД",
+        "title": "ЗПіД",
         "type": "Л.",
         "teacher": "Супрун",
-        "color": "green",
         "link": "https://meet.google.com/czm-hbxd-swu"
       }
     }
