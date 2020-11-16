@@ -1356,13 +1356,13 @@ app.post('/generateByBlocks', (req, res, next) => {
                                     });
                                     timetableArray.push(newDay);
                                 };
-                                // console.log('=====================');
-                                // console.log(timetableArray);
+                                // Day.deleteMany((errR, resR) => {
+                                //     console.log(errR, resR);
+                                // });
                                 Day.insertMany(timetableArray, (errIM2, resIM2) => {
                                     if (errIM2) { return res.status(500).json({ err: errIM2 }) }
                                     return res.status(200).json({ msg: 'Success!' })
                                 });
-                                return res.status(200).json({ data: timetableArray })
 
                             } else
                             {
