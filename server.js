@@ -7,9 +7,13 @@ const jwt = require('jsonwebtoken');
 const { emitKeypressEvents } = require('readline');
 const config = require('config');
 const mongoose = require('mongoose');
+//MODELS
 const user = require('./models/user');
-const { group } = require('console');
-// 
+const { time } = require('console');
+const block = require('./models/block');
+// const day = require('./models/day');
+// const block = require('./models/block');
+//MODELS
 // const day = require('./models/day');
 
 // const ExcelJS = require('exceljs');
@@ -265,8 +269,8 @@ app.post('/timetables/2/getCal', (req, res, next) => {
                 for (number in el.groups[group])
                 {
                     let date = el.date;
-                    // console.log(el.groups[group][number].title);
                     let lesson = el.groups[group][number];
+
                     switch (Number(number))
                     {
                         case 1:
@@ -277,15 +281,33 @@ app.post('/timetables/2/getCal', (req, res, next) => {
                                     end: date.setUTCHours(10, 20),
                                     title: lesson.title + '(' + lesson.type + ')',
                                     color: lesson.color,
-                                    display: lesson.display || "auto",
+                                    display:
+                                        lesson.events ? lesson.events.length > 0 ? "block" : "auto" : "auto",
+                                    borderColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
+                                    backgroundColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
                                     url: lesson.link,
-                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title }
+                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title, note: lesson.note, events: lesson.events }
                                 });
                             } else
                             {
                                 BDresponce.push({
                                     start: date.setUTCHours(09, 00),
                                     end: date.setUTCHours(10, 20),
+                                    extendedProps: { lessonNumber: number }
                                 });
                             }
                             break;
@@ -298,15 +320,34 @@ app.post('/timetables/2/getCal', (req, res, next) => {
                                     display: lesson.display || "auto",
                                     title: lesson.title + '(' + lesson.type + ')',
                                     color: lesson.color,
+                                    display:
+                                        lesson.events ? lesson.events.length > 0 ? "block" : "auto" : "auto",
+                                    borderColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
+                                    backgroundColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
                                     backgroundColor: lesson.backgroundColor,
                                     url: lesson.link,
-                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title }
+                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title, note: lesson.note, events: lesson.events }
                                 });
                             } else
                             {
                                 BDresponce.push({
                                     start: date.setUTCHours(10, 30),
                                     end: date.setUTCHours(11, 50),
+                                    extendedProps: { lessonNumber: number }
                                 });
                             }
                             break;
@@ -319,9 +360,27 @@ app.post('/timetables/2/getCal', (req, res, next) => {
                                     end: date.setUTCHours(13, 30),
                                     title: lesson.title + '(' + lesson.type + ')',
                                     color: lesson.color,
+                                    display:
+                                        lesson.events ? lesson.events.length > 0 ? "block" : "auto" : "auto",
+                                    borderColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
+                                    backgroundColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
                                     url: lesson.link,
                                     backgroundColor: lesson.backgroundColor,
-                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title }
+                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title, note: lesson.note, events: lesson.events }
 
                                 });
                             } else
@@ -329,6 +388,7 @@ app.post('/timetables/2/getCal', (req, res, next) => {
                                 BDresponce.push({
                                     start: date.setUTCHours(12, 10),
                                     end: date.setUTCHours(13, 30),
+                                    extendedProps: { lessonNumber: number }
                                 });
                             }
                             break;
@@ -336,20 +396,39 @@ app.post('/timetables/2/getCal', (req, res, next) => {
                             if (lesson.title != 'none')
                             {
                                 BDresponce.push({
-                                    start: date.setUTCHours(12, 10),
-                                    end: date.setUTCHours(13, 30),
+                                    start: date.setUTCHours(13, 40),
+                                    end: date.setUTCHours(15, 0),
                                     title: lesson.title + '(' + lesson.type + ')',
                                     color: lesson.color,
+                                    display:
+                                        lesson.events ? lesson.events.length > 0 ? "block" : "auto" : "auto",
+                                    borderColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
+                                    backgroundColor:
+                                        lesson.events ?
+                                            lesson.events[0] ?
+                                                lesson.events[0].color ?
+                                                    lesson.events[0].color :
+                                                    "none" :
+                                                "none" :
+                                            "none",
                                     display: lesson.display || "auto",
                                     backgroundColor: lesson.backgroundColor,
                                     url: lesson.link,
-                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title }
+                                    extendedProps: { teacher: lesson.teacher, lessonNumber: number, date: date, type: lesson.type, title: lesson.title, note: lesson.note, events: lesson.events }
                                 });
                             } else
                             {
                                 BDresponce.push({
                                     start: date.setUTCHours(13, 40),
-                                    end: date.setUTCHours(15, 00),
+                                    end: date.setUTCHours(15, 0),
+                                    extendedProps: { lessonNumber: number }
                                 });
 
                             }
@@ -379,6 +458,9 @@ app.post('/authAdmin', (req, res, next) => {
         if (err) return res.status(500).json({ err });
         if (docs)
         {
+            console.log('=========');
+            console.log(docs);
+            console.log('=========');
             //Добавить шифрование
             if (docs.password == candidate.password)
             {
@@ -403,7 +485,6 @@ app.post('/authAdmin', (req, res, next) => {
         {
             return res.status(404).json({ msg: 'user not found' });
         }
-        console.log(docs);
     })
 })
 
@@ -415,7 +496,7 @@ app.post('/lk', (req, res, next) => {
         jwt.verify(token, privateJwtKey, function (err, decoded) {
             if (err)
             {
-                return res.status(500).json({ msg: 'server jwt parse error', err });
+                return res.status(500).json({ msg: err.message, err });
             } else
             {
                 return res.status(200).json({ msg: 'success', decoded });
@@ -437,7 +518,7 @@ app.post('/removeLesson', (req, res, next) => {
         jwt.verify(token, privateJwtKey, function (err, decoded) {
             if (err)
             {
-                return res.status(500).json({ msg: 'server jwt parse error', err });
+                return res.status(500).json({ msg: err.message, err });
             } else
             {
                 const Day = require('./models/day')[decoded.spec];
@@ -466,22 +547,70 @@ app.post('/removeLesson', (req, res, next) => {
     }
 })
 
-app.post('/editLesson', (req, res, next) => {
+app.post('/removeEvent', (req, res, next) => {
     const token = req.body.token;
     const group = req.body.group;
-    const number = req.body.data.lessonNumber;
-    console.log(req.body.data);
-    const date = req.body.data.lessonDate.substr(0, 10);
-    const editType = req.body.editType;
-    const newData = req.body.data;
-    console.log(newData);
-    // console.log(newData);
+    const number = req.body.lessonNumber;
+    const eventPosition = req.body.eventPosition;
+    console.log(req.body);
+    const date = req.body.date.substr(0, 10);
     if (token)
     {
         jwt.verify(token, privateJwtKey, function (err, decoded) {
             if (err)
             {
-                return res.status(500).json({ msg: 'server jwt parse error', err });
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Day = require('./models/day')[decoded.spec];
+                Day.findOne({ date: date },
+                    (errFO, result) => {
+                        if (errFO) return console.log(errFO);
+                        if (result)
+                        {
+                            console.log(result.groups[group][number]["events"]);
+                            if (result.groups[group][number]["events"])
+                            {
+                                result.groups[group][number]["events"].splice(eventPosition, 1);
+                            } else
+                            {
+                                return res.status(404).json({ msg: 'events not found' });
+
+                            }
+                            console.log(result.groups[group][number]["events"]);
+
+                            Day.updateOne({ date: date }, result, (errUO, resUO) => {
+                                if (errUO) return res.status(500).json({ err: errUO });
+                                return res.status(200).json({ msg: resUO });
+
+                            });
+                        } else
+                        {
+                            return res.status(404).json({ msg: 'docs not found' });
+                        }
+                    })
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+})
+
+app.post('/editLesson', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const number = req.body.data.lessonNumber;
+    const date = req.body.data.lessonDate.substr(0, 10);
+    const editType = req.body.editType;
+    const newData = req.body.data;
+    console.log(newData);
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
             } else
             {
                 const Day = require('./models/day')[decoded.spec];
@@ -490,12 +619,19 @@ app.post('/editLesson', (req, res, next) => {
                     if (err) return res.status(500).json({ err: err });
                     if (resFo)
                     {
+                        console.log(resFo.groups);
+                        console.log(group);
                         // resFo.groups[group][newData.lessonNumber] = newData;
                         resFo.groups[group][number].title = newData.lessonName;
                         resFo.groups[group][number].type = newData.lessonType;
                         resFo.groups[group][number].teacher = newData.lessonTeacher;
                         // resFo.groups[group][number].color = newData.lessonColor;
                         resFo.groups[group][number].link = newData.lessonLink;
+                        resFo.groups[group][number].note = newData.lessonNote;
+                        console.log('=========================');
+                        console.log(resFo.groups[group][number]);
+
+                        console.log('=========================');
                         Day.updateOne({ date: date }, resFo, (errUO, resUO) => {
                             if (errUO) return res.status(500).json({ err: errUO });
                             return res.status(200).json({ msg: resUO });
@@ -564,12 +700,13 @@ app.post('/addLesson', (req, res, next) => {
     const lessonNumber = req.body.data.lessonNumber;
     const lessonDate = req.body.data.lessonDate.substr(0, 10);
 
+
     if (token)
     {
         jwt.verify(token, privateJwtKey, function (err, decoded) {
             if (err)
             {
-                return res.status(500).json({ msg: 'server jwt parse error', err });
+                return res.status(500).json({ msg: err.message, err });
             } else
             {
                 const Day = require('./models/day')[decoded.spec];
@@ -604,9 +741,650 @@ app.post('/addLesson', (req, res, next) => {
     }
 
 })
+app.post('/addEvent', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const data = req.body.data;
+    const date = req.body.date;
+    const number = req.body.number;
+
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Day = require('./models/day')[decoded.spec];
+                Day.findOne({ date: date }, (errFO, resFO) => {
+                    if (errFO) return res.status(500).json({ err: errFO });
+                    if (resFO)
+                    {
+                        console.log(resFO.groups[group]);
+                        console.log('========');
+                        let newEvent = {
+                            type: data.type,
+                            title: data.title,
+                            theme: data.theme,
+                            note: data.note,
+                        };
+                        if (data.type)
+                        {
+                            newEvent.prefix = data.prefix
+                        } else
+                        {
+                            newEvent.color = data.color;
+                        }
+                        if (resFO.groups[group][number]["events"])
+                        {
+                            resFO.groups[group][number]["events"].push(newEvent);
+                        } else
+                        {
+                            resFO.groups[group][number]["events"] = [];
+                            resFO.groups[group][number]["events"].push(newEvent);
+                        }
+
+                        console.log('1test', resFO.groups[group][number]);
+                        Day.updateOne({ date: date }, resFO, (errUO, resUO) => {
+                            if (errUO) return res.status(500).json({ err: errUO });
+                            console.log(resUO);
+                            return res.status(200).json({ msg: resUO });
+
+                        });
+                    }
+                    else
+                    {
+                        return res.status(404).json({ err: 'day is not found' });
+                    }
+                })
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+})
+
+app.post('/addLessonGrid', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const lessonDate = req.body.date.substr(0, 10);
+
+
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Day = require('./models/day')[decoded.spec];
+                Day.findOne({ date: lessonDate }, (errFO, resFO) => {
+                    if (errFO) return res.status(500).json({ err: errFO });
+                    if (resFO)
+                    {
+                        resFO.groups[group] = {};
+                        resFO.groups[group]["1"] = { title: 'none' };
+                        resFO.groups[group]["2"] = { title: 'none' };
+                        resFO.groups[group]["3"] = { title: 'none' };
+                        resFO.groups[group]["4"] = { title: 'none' };
+                        Day.updateOne({ date: lessonDate }, resFO, (errS, resS) => {
+                            if (errS) { return res.status(500).json({ err: errS }) }
+                            return res.status(200).json({ msg: 'success', resS })
+                        });
+                    } else
+                    {
+                        let gridLesson = new Day({
+                            date: lessonDate,
+                        });
+                        gridLesson.groups = {};
+                        gridLesson.groups[group] = {};
+                        gridLesson.groups[group]["1"] = { title: 'none' };
+                        gridLesson.groups[group]["2"] = { title: 'none' };
+                        gridLesson.groups[group]["3"] = { title: 'none' };
+                        gridLesson.groups[group]["4"] = { title: 'none' };
+                        gridLesson.save((errS, resS) => {
+                            if (errS) { return res.status(500).json({ err: errS }) }
+                            return res.status(200).json({ msg: 'success' })
+                        });
+                    }
+                });
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+})
+
+app.post('/getBlocks', (req, res, next) => {
+
+    const token = req.body.token;
+    const group = req.body.group;
+    const weekday = req.body.weekday;
+
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Block = require('./models/block')[decoded.spec];
+                Block.findOne({ weekday: weekday }, (errFO, resFO) => {
+                    if (errFO) return res.status(500).json(errFO);
+                    if (resFO)
+                    {
+                        if (resFO.groups[group])
+                        {
+                            return res.status(200).json({ 'msg': 'success', data: resFO.groups[group] });
+                        }
+                    }
+                });
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+})
+
+
+app.post('/addBlock', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const weekday = req.body.weekDay;
+    const block = req.body.data;
+    const lessonNumber = req.body.data.lessonNumber;
+    delete block["lessonNumber"]
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Block = require('./models/block')[decoded.spec];
+                Block.findOne({ weekday }, (errFO, resFO) => {
+                    // console.log(errFO);
+                    if (errFO) return res.status(500).json(errFO);
+                    if (resFO)
+                    {
+                        if (resFO.groups)
+                        {
+                            if (resFO.groups[group])
+                            {
+                                if (resFO.groups[group][lessonNumber])
+                                {
+                                    resFO.groups[group][lessonNumber].push(block);
+                                } else
+                                {
+                                    resFO.groups[group][lessonNumber] = [];
+                                    resFO.groups[group][lessonNumber].push(block);
+                                }
+                            } else
+                            {
+                                resFO.groups[group] = {};
+                                resFO.groups[group][lessonNumber] = [];
+                                resFO.groups[group][lessonNumber].push(block);
+                            }
+                        } else
+                        {
+                            resFO.groups = {};
+                            resFO.groups[group] = {};
+                            resFO.groups[group][lessonNumber] = [];
+                            resFO.groups[group][lessonNumber].push(block);
+                        }
+                        Block.updateOne({ weekday }, resFO, (errUO, resUo) => {
+                            if (errUO) { return res.status(500).json({ 'msg': errUO }) };
+                            return res.status(200).json({ 'msg': 'ok' });
+                        });
+
+                    } else
+                    {
+                        const Block = require('./models/block')[decoded.spec];
+                        let newBlock = {};
+                        newBlock.date = new Date();
+                        newBlock.weekday = weekday;
+                        newBlock.groups = {};
+                        newBlock.groups[group] = {};
+                        newBlock.groups[group][lessonNumber] = [];
+                        newBlock.groups[group][lessonNumber].push(block);
+                        Block.insertMany([newBlock], (errS, resS) => {
+                            if (errS) { return res.status(500).json({ 'msg': errS }) };
+                            return res.status(200).json({ 'msg': 'ok' });
+
+                        });
+                    }
+                });
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+})
+
+app.post('/EditBlock', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const weekday = req.body.weekDay;
+    const block = req.body.data;
+    const lessonNumber = req.body.selectedNumber;
+    const selectedArrayEl = req.body.selectedArrayEl;
+
+    console.log(block);
+    console.log('============');
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Block = require('./models/block')[decoded.spec];
+                Block.findOne({ weekday }, (errFO, resFO) => {
+                    // console.log(errFO);
+                    if (errFO) return res.status(500).json(errFO);
+                    if (resFO)
+                    {
+
+                        if (resFO.groups)
+                        {
+                            if (resFO.groups[group])
+                            {
+                                if (resFO.groups[group][lessonNumber])
+                                {
+                                    if (resFO.groups[group][lessonNumber][selectedArrayEl])
+                                    {
+                                        resFO.groups[group][lessonNumber][selectedArrayEl].lessonName = block.lessonName;
+                                        resFO.groups[group][lessonNumber][selectedArrayEl].lessonType = block.lessonType;
+                                        resFO.groups[group][lessonNumber][selectedArrayEl].lessonLink = block.lessonLink;
+                                        resFO.groups[group][lessonNumber][selectedArrayEl].lessonTeacher = block.lessonTeacher;
+                                    } else
+                                    {
+                                        return res.status(404).json({ msg: 'not found block' });
+                                    }
+                                } else
+                                {
+                                    return res.status(404).json({ msg: 'not found lesson' });
+                                }
+                            } else
+                            {
+                                return res.status(404).json({ msg: 'not found group' });
+                            }
+                        } else
+                        {
+                            return res.status(404).json({ msg: 'not found grid' });
+                        }
+                        Block.updateOne({ weekday }, resFO, (errUO, resUo) => {
+                            if (errUO) { return res.status(500).json({ 'msg': errUO }) };
+                            return res.status(200).json({ 'msg': 'ok' });
+                        });
+
+                    } else
+                    {
+                        const Block = require('./models/block')[decoded.spec];
+                        let newBlock = {};
+                        newBlock.date = new Date();
+                        newBlock.weekday = weekday;
+                        newBlock.groups = {};
+                        newBlock.groups[group] = {};
+                        newBlock.groups[group][lessonNumber] = [];
+                        newBlock.groups[group][lessonNumber].push(block);
+                        Block.insertMany([newBlock], (errS, resS) => {
+                            if (errS) { return res.status(500).json({ 'msg': errS }) };
+                            return res.status(200).json({ 'msg': 'ok' });
+
+                        });
+                    }
+                });
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+})
+
+app.post('/removeBlock', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const weekday = req.body.weekDay;
+    const lessonNumber = req.body.selectedNumber;
+    const selectedArrayEl = req.body.selectedArrayEl;
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Block = require('./models/block')[decoded.spec];
+                Block.findOne({ weekday }, (errFO, resFO) => {
+                    // console.log(errFO);
+                    if (errFO) return res.status(500).json(errFO);
+                    if (resFO)
+                    {
+
+                        if (resFO.groups)
+                        {
+                            if (resFO.groups[group])
+                            {
+                                if (resFO.groups[group][lessonNumber])
+                                {
+                                    if (resFO.groups[group][lessonNumber][selectedArrayEl])
+                                    {
+                                        resFO.groups[group][lessonNumber].splice(selectedArrayEl, 1);
+                                    } else
+                                    {
+                                        return res.status(404).json({ msg: 'not found block' });
+                                    }
+                                } else
+                                {
+                                    return res.status(404).json({ msg: 'not found lesson' });
+                                }
+                            } else
+                            {
+                                return res.status(404).json({ msg: 'not found group' });
+                            }
+                        } else
+                        {
+                            return res.status(404).json({ msg: 'not found grid' });
+                        }
+                        Block.updateOne({ weekday }, resFO, (errUO, resUo) => {
+                            if (errUO) { return res.status(500).json({ 'msg': errUO }) };
+                            return res.status(200).json({ 'msg': 'ok' });
+                        });
+
+                    } else
+                    {
+                        const Block = require('./models/block')[decoded.spec];
+                        let newBlock = {};
+                        newBlock.date = new Date();
+                        newBlock.weekday = weekday;
+                        newBlock.groups = {};
+                        newBlock.groups[group] = {};
+                        newBlock.groups[group][lessonNumber] = [];
+                        newBlock.groups[group][lessonNumber].push(block);
+                        Block.insertMany([newBlock], (errS, resS) => {
+                            if (errS) { return res.status(500).json({ 'msg': errS }) };
+                            return res.status(200).json({ 'msg': 'ok' });
+
+                        });
+                    }
+                });
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+})
+
+
+app.post('/generateByBlocks', (req, res, next) => {
+    const token = req.body.token;
+    const group = req.body.group;
+    const weekday = req.body.weekday;
+    console.log(req.body);
+    if (token)
+    {
+        jwt.verify(token, privateJwtKey, function (err, decoded) {
+            if (err)
+            {
+                return res.status(500).json({ msg: err.message, err });
+            } else
+            {
+                const Block = require('./models/block')[decoded.spec];
+
+                if (weekday == 'ALL')
+                {
+                    let arrWeekDays = [
+                        "Mon",
+                        "Tue",
+                        "Wed",
+                        "Thu",
+                        "Fri",
+                        "Sat",
+                        "Sun",
+                    ];
+                    // arrWeekDays.forEach((weekEl) => {
+                    // console.log(weekEl);
+                    // });
+                    let index = 0;
+
+                    Block.find({ weekday: arrWeekDays }, null, { sort: 'критерий сортировки' }, async function (errF, resF) {
+                        if (errF) { return res.status(500).json({ err: errF }) }
+                        if (resF)
+                        {
+                            let timetable = {};
+                            console.log(resF);
+                            resF.forEach((block) => {
+                                if (block.groups[group])
+                                {
+                                    for (number in block.groups[group])
+                                    {
+                                        const lessons = block.groups[group][number];
+                                        lessons.forEach(async (lesson) => {
+                                            lesson.lessonDates.forEach(async (date) => {
+                                                // console.log(date);
+                                                if (timetable[date])
+                                                {
+                                                    if (timetable[date].groups)
+                                                    {
+                                                        if (timetable[date].groups[group])
+                                                        {
+                                                            timetable[date].groups[group][number] = {};
+                                                            timetable[date].groups[group][number].title = lesson.lessonName;
+                                                            timetable[date].groups[group][number].type = lesson.lessonType;
+                                                            timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                            timetable[date].groups[group][number].link = lesson.lessonLink;
+
+                                                        } else
+                                                        {
+                                                            timetable[date].groups[group] = {};
+                                                            for (let i = 1; i <= 4; i++)
+                                                            {
+                                                                timetable[date].groups[group][i] = {};
+                                                                timetable[date].groups[group][i].title = 'none';
+                                                            }
+                                                            timetable[date].groups[group][number].title = lesson.lessonName;
+                                                            timetable[date].groups[group][number].type = lesson.lessonType;
+                                                            timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                            timetable[date].groups[group][number].link = lesson.lessonLink;
+                                                        }
+                                                    } else
+                                                    {
+                                                        timetable[date].groups = {}
+                                                        timetable[date].groups[group] = {};
+                                                        for (let i = 1; i <= 4; i++)
+                                                        {
+                                                            timetable[date].groups[group][i] = {};
+                                                            timetable[date].groups[group][i].title = 'none';
+                                                        }
+                                                        timetable[date].groups[group][number].title = lesson.lessonName;
+                                                        timetable[date].groups[group][number].type = lesson.lessonType;
+                                                        timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                        timetable[date].groups[group][number].link = lesson.lessonLink;
+                                                    }
+                                                } else
+                                                {
+                                                    timetable[date] = {}
+                                                    timetable[date].groups = {}
+                                                    timetable[date].groups[group] = {};
+                                                    for (let i = 1; i <= 4; i++)
+                                                    {
+                                                        timetable[date].groups[group][i] = {};
+                                                        timetable[date].groups[group][i].title = 'none';
+                                                    }
+                                                    timetable[date].groups[group][number].title = lesson.lessonName;
+                                                    timetable[date].groups[group][number].type = lesson.lessonType;
+                                                    timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                    timetable[date].groups[group][number].link = lesson.lessonLink;
+                                                }
+                                            })
+                                        });
+                                    }
+                                }
+                            });
+                            // console.log(Object.keys(timetable).sort());
+
+                            let timetableArray = [];
+                            const Day = require('./models/day')[decoded.spec];
+                            for (date in timetable)
+                            {
+                                let newDay = new Day({
+                                    date,
+                                    groups: timetable[date].groups
+                                });
+                                timetableArray.push(newDay);
+                            };
+                            Day.deleteMany((errR, resR) => {
+                                console.log(errR, resR);
+                            });
+                            Day.insertMany(timetableArray.sort(), (errIM, resIM) => {
+                                if (errIM) { return res.status(500).json({ err: errIM }) }
+                                return res.status(200).json({ msg: 'Success!' })
+                            });
+                        }
+                    }
+                    );
+
+
+                    // Cycle().then(() => {
+                    //     console.log(Object.keys(timetable));
+                    //     
+                    // })
 
 
 
+                } else
+                {
+                    let timetable = {};
+                    Block.findOne({ weekday }, null, { sort: 'критерий сортировки' }, function (errF, resF) {
+                        if (errF) { return res.status(500).json({ err: errF }) };
+                        if (resF)
+                        {
+                            if (resF.groups[group])
+                            {
+                                for (number in resF.groups[group])
+                                {
+                                    const lessons = resF.groups[group][number];
+                                    lessons.forEach((lesson) => {
+                                        lesson.lessonDates.forEach((date) => {
+                                            // console.log(date);
+                                            if (timetable[date])
+                                            {
+                                                if (timetable[date].groups)
+                                                {
+                                                    if (timetable[date].groups[group])
+                                                    {
+                                                        timetable[date].groups[group][number] = {};
+                                                        timetable[date].groups[group][number].title = lesson.lessonName;
+                                                        timetable[date].groups[group][number].type = lesson.lessonType;
+                                                        timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                        timetable[date].groups[group][number].link = lesson.lessonLink;
+
+                                                    } else
+                                                    {
+                                                        timetable[date].groups[group] = {};
+                                                        for (let i = 1; i <= 4; i++)
+                                                        {
+                                                            timetable[date].groups[group][i] = {};
+                                                            timetable[date].groups[group][i].title = 'none';
+                                                        }
+                                                        timetable[date].groups[group][number].title = lesson.lessonName;
+                                                        timetable[date].groups[group][number].type = lesson.lessonType;
+                                                        timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                        timetable[date].groups[group][number].link = lesson.lessonLink;
+                                                    }
+                                                } else
+                                                {
+                                                    timetable[date].groups = {}
+                                                    timetable[date].groups[group] = {};
+                                                    for (let i = 1; i <= 4; i++)
+                                                    {
+                                                        timetable[date].groups[group][i] = {};
+                                                        timetable[date].groups[group][i].title = 'none';
+                                                    }
+                                                    timetable[date].groups[group][number].title = lesson.lessonName;
+                                                    timetable[date].groups[group][number].type = lesson.lessonType;
+                                                    timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                    timetable[date].groups[group][number].link = lesson.lessonLink;
+                                                }
+                                            } else
+                                            {
+                                                timetable[date] = {}
+                                                timetable[date].groups = {}
+                                                timetable[date].groups[group] = {};
+                                                for (let i = 1; i <= 4; i++)
+                                                {
+                                                    timetable[date].groups[group][i] = {};
+                                                    timetable[date].groups[group][i].title = 'none';
+                                                }
+                                                timetable[date].groups[group][number].title = lesson.lessonName;
+                                                timetable[date].groups[group][number].type = lesson.lessonType;
+                                                timetable[date].groups[group][number].teacher = lesson.lessonTeacher;
+                                                timetable[date].groups[group][number].link = lesson.lessonLink;
+                                            }
+                                        })
+
+                                    });
+
+
+                                }
+                                let timetableArray = [];
+                                const Day = require('./models/day')[decoded.spec];
+                                for (date in timetable)
+                                {
+                                    let newDay = new Day({
+                                        date,
+                                        groups: timetable[date].groups
+                                    });
+                                    timetableArray.push(newDay);
+                                };
+                                // console.log('=====================');
+                                // console.log(timetableArray);
+                                Day.insertMany(timetableArray, (errIM2, resIM2) => {
+                                    if (errIM2) { return res.status(500).json({ err: errIM2 }) }
+                                    return res.status(200).json({ msg: 'Success!' })
+                                });
+                                return res.status(200).json({ data: timetableArray })
+
+                            } else
+                            {
+                                return res.status(404).json({ msg: 'блоки для этой группы в этот день недели не найдены' })
+                            }
+                        } else
+                        {
+                            return res.status(404).json({ msg: 'блоки на этот день недели не найдены' });
+                        }
+                    }
+                    );
+                }
+
+            }
+        });
+    } else
+    {
+        return res.status(405).json({ msg: 'token not sended', });
+    }
+
+
+});
 
 
 
@@ -617,7 +1395,7 @@ app.post('/get/options', (req, res, next) => {
         jwt.verify(token, privateJwtKey, function (err, decoded) {
             if (err)
             {
-                return res.status(500).json({ msg: 'server jwt parse error', err });
+                return res.status(500).json({ msg: err.message, err });
             } else
             {
                 fs.readFile('./data/options.json', 'utf8', function (err, contents) {
@@ -645,27 +1423,21 @@ app.post('/get/oneDay', (req, res, next) => {
         if (err) return console.log(err);
         if (docs)
         {
-            return res.status(200).json({ msg: 'success', day: docs.groups[group] })
+            if (docs.groups[group])
+            {
+                console.log(docs.groups[group]);
+                return res.status(200).json({ msg: 'success', day: docs.groups[group] })
+
+            } else
+            {
+                return res.status(404).json({ msg: 'group is not found.' })
+
+            }
         } else
         {
-            return console.log('404 nor found');
+            return res.status(404).json({ msg: 'day table is not found.' })
         }
     });
-
-    // fs.readFile('./data/' + spec + '/timetable.json', 'utf8', function (err, contents) {
-    //     if (err) {
-    //         return res.status(500).json(err);
-    //     }
-    //     let file = JSON.parse(contents);
-    //     try {
-    //         file = file[date][group]
-    //         return res.status(200).json({ msg: 'success', day: file });
-    //     } catch (error) {
-    //         console.log(error)
-    //         return res.status(500).json({ msg: 'Вероятно, на эту дату нет занятий...', err: '123' });
-    //     }
-    // });
-
 })
 
 
@@ -733,57 +1505,74 @@ app.listen(port, (err) => {
 
 
 
-// fs.readFile('./data/ПП1/timetable.json', 'utf8', function (err, contents) {
-//     if (err) {
-//         return res.status(500).json(err);
+// fs.readFile('./data/ИПЗ-3/timetable.json', 'utf8', function (err, contents) {
+//     if (err)
+//     {
+//         return console.log(err);
 //     }
 //     let file = JSON.parse(contents);
 
-//     for (key in file) {
-//         for (key2 in file[key]) {
-//             // console.log(key2);
-//             if (!file[key][key2]["1"]) { file[key][key2]["1"] = {}; file[key][key2]["1"].title = 'none' }
-//             if (!file[key][key2]["2"]) { file[key][key2]["2"] = {}; file[key][key2]["2"].title = 'none' }
-//             if (!file[key][key2]["3"]) { file[key][key2]["3"] = {}; file[key][key2]["3"].title = 'none' }
-//             if (!file[key][key2]["4"]) { file[key][key2]["4"] = {}; file[key][key2]["4"].title = 'none' }
+//     for (key in file)
+//     {
+
+//         let date = new Date(key);
+//         date.setUTCDate(date.getUTCDate() + 1);
+//         date.setUTCHours(0, 0);
+//         // date = date.substr(0, 10)
+//         console.log(date);
+//         const Day = require('./models/day').SoftEng3;
+//         let candidate = new Day({
+//             groups: file[key],
+//             date: date
+//         });
+//         candidate.save();
 
 
+//         //     for (key2 in file[key])
+//         //     {
+//         //         if (!file[key][key2]["1"]) { file[key][key2]["1"] = {}; file[key][key2]["1"].title = 'none' }
+//         //         if (!file[key][key2]["2"]) { file[key][key2]["2"] = {}; file[key][key2]["2"].title = 'none' }
+//         //         if (!file[key][key2]["3"]) { file[key][key2]["3"] = {}; file[key][key2]["3"].title = 'none' }
+//         //         if (!file[key][key2]["4"]) { file[key][key2]["4"] = {}; file[key][key2]["4"].title = 'none' }
 
-//         }
-//     };
-//     fs.writeFile('./data/ПП1/timetable.json', JSON.stringify(file, null, 2), function (err, contents) {
-//         console.log(err, contents);
-//         if (err) return console.log(err);
-//         return console.log('OK');
-//     });
 
+//         //     }
+//         // };
+//         // fs.writeFile('./data/ИПЗ-3/timetable.json', JSON.stringify(file, null, 2), function (err, contents) {
+//         //     console.log(err, contents);
+//         //     if (err) return console.log(err);
+//         //     return console.log('OK');
+//         // });
+
+//     }
 // });
 
 
 
 // let userCandidate = new user({
-//     login: "lifipp",
+//     login: "kosvanya",
 //     type: "user",
 //     password: "123456789",
-//     spec: 'AP1',
-//     groups: ["ПП11/1", "ПП11/2", "ПП12/1", "ПП12/2"]
+//     spec: 'SoftEng1',
+//     groups: ["ИПЗ-31/1", "ИПЗ-31/2"]
 // });
+// userCandidate.save();
+
 // const Day = require('./models/day').AP1;
+// Day.insertMany([
+//     { date: '11-01-2003' },
+//     { date: '11-02-2003' },
+//     { date: '11-03-2003' },
+// ]);
 
-// Day.findOne({ date: '2020-09-17' }, (err, saveRes) => {
-//     if (err) {
-//         console.log(err);
-//     } else {
-//         group1 = 'ПП11/1';
-//         number1 = 2;
-//         console.log(saveRes.groups[group1][number1]);
-
-//         saveRes.groups[group1] = {};
-//         // saveRes.groups[group1][number1].title = 'none';
-//         console.log(saveRes.groups[group1]);
-//         saveRes.save();
-//         // saveRes.remove();
-//         // saveRes.login = 'lifipp'
-//         // saveRes.save();
+// const Day = require('./models/day').SoftEng3;
+// Day.find({
+//     $where: (el) => {
+//         if (el.date = '2020-09-07T00:00:00.000+00:00')
+//         {
+//             return true
+//         }
 //     }
-// });
+// }, (err, res) => {
+//     console.log(err, res);
+// })
