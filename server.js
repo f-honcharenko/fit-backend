@@ -29,7 +29,7 @@ mongoose.connect(config.mongoose.link, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
-    // useFindAndModify: false
+    useFindAndModify: false
 });
 
 //routes
@@ -1161,9 +1161,6 @@ app.post('/generateByBlocks', (req, res, next) => {
                         "Sat",
                         "Sun",
                     ];
-                    // arrWeekDays.forEach((weekEl) => {
-                    // console.log(weekEl);
-                    // });
                     let index = 0;
 
                     Block.find({ weekday: arrWeekDays }, null, { sort: 'критерий сортировки' }, async function (errF, resF) {
@@ -1240,25 +1237,160 @@ app.post('/generateByBlocks', (req, res, next) => {
                                     }
                                 }
                             });
-                            // console.log(Object.keys(timetable).sort());
-
-                            let timetableArray = [];
                             const Day = require('./models/day')[decoded.spec];
+                            let dates = Object.keys(timetable).sort();
+                            let timetableArray = [];
+                            let insertsArray = [];
+
+                            console.log('====================');
+                            console.log('====================');
+
+                            // Day.find({ dates }, async (errIM, resIM) => {
+                            //     if (errIM) { return res.status(500).json({ err: errIM }) }
+                            //     // return res.status(200).json({ msg: 'Success!' })
+                            //     console.log('asd', resIM.length);
+                            // });
+                            // Day.find({ dates }, (errF, resF) => {
+                            //     if (errF) throw (errF);
+                            //     console.log(resF.length);
+                            // })
+
+                            console.log('00000000000000000000000000')
                             for (date in timetable)
                             {
-                                let newDay = new Day({
-                                    date,
-                                    groups: timetable[date].groups
+                                let date1 = date;
+                                await Day.findOne({ date }, (errFO, resFO) => {
+                                    if (errFO) throw (errFO)
+                                    if (resFO)
+                                    {
+                                        // console.log('FINDED:', resFO);
+                                        // console.log('found by daye: ' + date1)
+                                        // console.log('FINDED', resFO.groups);
+                                        // console.log('==========', group);
+                                        if (resFO.groups)
+                                        {
+                                            if (resFO.groups[group])
+                                            {
+                                                resFO.groups[group] = timetable[date1].groups[group];
+                                            } else
+                                            {
+                                                resFO.groups[group] = {};
+                                                resFO.groups[group] = timetable[date1].groups[group];
+                                            }
+                                        } else
+                                        {
+                                            resFO.groups = {};
+                                            resFO.groups[group] = {};
+                                            resFO.groups[group] = timetable[date1].groups[group];
+                                        }
+
+
+
+                                        // console.log('==========');
+                                        // console.log('UPDATED', resFO.groups);
+
+                                        // resFO.save();
+                                        Day.findOneAndUpdate({ date: date1 }, resFO, (errUO2, ressUO2) => {
+                                            if (errUO2) console.log(errUO2);
+                                            // if (ressUO2) console.log('UPDATED: ', group, date1);
+                                            if (ressUO2) console.log(ressUO2);
+                                        });
+                                    } else
+                                    {
+                                        let newDay = new Day();
+                                        newDay.date = new Date(date1);
+                                        newDay.groups = {};
+                                        newDay.groups[group] = {};
+                                        newDay.groups[group] = timetable[date1].groups[group];
+                                        newDay.save((errs, ress) => {
+                                            // if (errs) return console.log(errs);
+                                            if (ress) return console.log('CREATED');
+                                        });
+                                        // insertsArray.push(newDay);
+                                    }
                                 });
-                                timetableArray.push(newDay);
-                            };
-                            Day.deleteMany((errR, resR) => {
-                                console.log(errR, resR);
-                            });
-                            Day.insertMany(timetableArray.sort(), (errIM, resIM) => {
-                                if (errIM) { return res.status(500).json({ err: errIM }) }
-                                return res.status(200).json({ msg: 'Success!' })
-                            });
+                                // console.log('IAL', insertsArray);
+                            }
+
+                            // console.log(timetable);
+                            // Day.find({ date: dates }, (errF, resF) => {
+                            //     if (errF) return res.status(500).json({ err: errF });
+                            //     if (resF)
+                            //     {
+                            //         resF.forEach((el) => {
+                            //             let BDdate = el.date;
+                            //             console.log('=================');
+                            //             console.log(el);
+                            //             console.log(BDdate);
+                            //             console.log(timetable[BDdate]);
+                            //             if (timetable[el.date + ''] == undefined)
+                            //             {
+                            //                 console.log('+');
+                            //             } else
+                            //             {
+                            //                 console.log('-');
+
+                            //             }
+                            // if (el.groups)
+                            // {
+                            //     if (el.groups[group])
+                            //     {
+                            //         el.groups[group] = timetable[el.date].groups[group];
+                            //     } else
+                            //     {
+                            //         el.groups[group] = {};
+                            //         el.groups[group] = timetable[el.date].groups[group];
+                            //     }
+                            // } else
+                            // {
+                            //     el.groups = {};
+                            //     el.groups[group] = {};
+                            //     el.groups[group] = timetable[el.date].groups[group];
+                            // }
+
+                            // });
+                            // Day.updateMany({ date: dates }, { groups: resF.groups }, (errS, resS) => {
+                            //     // console.log(errS, resS);
+                            // });
+                            // console.log(resF);
+                            // console.log(resF.length);
+                            // Object.ass
+                            // resF.forEach((el) => { 
+                            //     el.groups[group]
+                            // })
+                            // }
+                            // })
+                            // ПЕРЕДЕЛАТЬ
+
+                            // let insertsArray = [];
+                            // for (date in timetable)
+                            // {
+
+                            //     Day.findOne({ date }, (errFO, resFO) => {
+                            //         if (errFO) console.log(errFO)
+                            //         if (resFO)
+                            //         {
+                            //             // console.log('FINDED', resFO.groups[group]);
+                            //             resFO.groups[group] = { title: 'none' };
+                            //             console.log('edited', resFO.groups[group]);
+                            //             Day.updateOne({ date: date }, { groups: resFO.groups }, (errS, resS) => {
+                            //                 console.log(resS);
+                            //                 // if (errS) { return res.status(500).json({ err: errS }) }
+                            //                 // return res.status(200).json({ msg: 'success', resS })
+                            //             });
+                            //         }
+                            //     });
+                            // };
+                            // ПЕРЕДЕЛАТЬ
+                            // Day.find({ dates }, async (errIM, resIM) => {
+                            //     if (errIM) { return res.status(500).json({ err: errIM }) }
+                            //     // return res.status(200).json({ msg: 'Success!' })
+                            //     console.log(resIM.length);
+                            // });
+                            // Day.updateMany({dates}, timetableArray, { upsert: true }, (errIM, resIM) => {
+                            //     if (errIM) { return res.status(500).json({ err: errIM }) }
+                            //     return res.status(200).json({ msg: 'Success!' })
+                            // });
                         }
                     }
                     );
@@ -1274,6 +1406,7 @@ app.post('/generateByBlocks', (req, res, next) => {
                 } else
                 {
                     let timetable = {};
+                    let dates = {}
                     Block.findOne({ weekday }, null, { sort: 'критерий сортировки' }, function (errF, resF) {
                         if (errF) { return res.status(500).json({ err: errF }) };
                         if (resF)
@@ -1356,13 +1489,14 @@ app.post('/generateByBlocks', (req, res, next) => {
                                     });
                                     timetableArray.push(newDay);
                                 };
-                                // Day.deleteMany((errR, resR) => {
-                                //     console.log(errR, resR);
-                                // });
-                                Day.insertMany(timetableArray, (errIM2, resIM2) => {
-                                    if (errIM2) { return res.status(500).json({ err: errIM2 }) }
-                                    return res.status(200).json({ msg: 'Success!' })
+                                Day.find({ date }, (errR, resR) => {
+                                    console.log(errR, resR);
                                 });
+
+                                // Day.insertMany(timetableArray, (errIM2, resIM2) => {
+                                //     if (errIM2) { return res.status(500).json({ err: errIM2 }) }
+                                //     return res.status(200).json({ msg: 'Success!' })
+                                // });
 
                             } else
                             {
